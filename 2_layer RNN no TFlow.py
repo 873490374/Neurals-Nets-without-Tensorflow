@@ -135,7 +135,7 @@ for j in range(1000000):
     synapse_1 += synapse_1_update * alpha
     synapse_h += synapse_h_update * alpha    
     synapse_h2 += synapse_h2_update * alpha
-    synapse_out_update += synapse_out_update * alpha
+    synapse_out += synapse_out_update * alpha
 
     synapse_in_update *= 0
     synapse_1_update *= 0
