@@ -96,7 +96,7 @@ for j in range(1000000):
         overallError += np.abs(layer_out_error[0])
     
         # decode estimate so we can print it out
-        d[binary_dim - position - 1] = np.round(layer_2[0][0])
+        d[binary_dim - position - 1] = np.round(layer_out[0][0])
         
         # store hidden layer so we can use it in the next timestep
         layer_1_values.append(copy.deepcopy(layer_1)) ## deepcopy so that when the values of layer_1 change the appended values don't also change. ie it doesn't point to the same data object
