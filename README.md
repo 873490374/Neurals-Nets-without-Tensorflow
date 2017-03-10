@@ -5,4 +5,4 @@ For the RNN I added an extra layer of neurons and 2nd batch of recurrent synapse
 
 The second file is a Neural Network where it has an input neuron per digit. I don't know if this will work any better.
 
-I want to then try and get it to find prime factors of numbers.
+Third file is an attempt to get it to find prime factors.
